@@ -165,3 +165,197 @@ body {
 .object {
   padding: 10px;
 }
+
+
+
+
+
+/* Page d'evenements et Actualite */
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  NAVBAR mobile */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar_searchetnotification {
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.bar_searchetnotification input {
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.section2_nav {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.section2_nav a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.section2_nav a:hover {
+    color: rgba(8, 0, 255, 0.442);
+}
+
+.logo {
+    width: 100px;
+}
+
+/*  Section Activité */
+.h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #003AA6;
+}
+
+.contanier {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
+
+/* cartes */
+.carte1,
+.carte2,
+.carte3,
+.carte4,
+.carte5,
+.carte6 {
+    position: relative;
+    border-radius: 16px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carte1 {
+    background-image: url('images/AA1ANiaA.jpg');
+}
+
+.carte2 {
+    background-image: url('images/Paragraph+Background.png');
+}
+
+.carte3 {
+    background-image: url('images/space-exploration-sc_fm1ysf-1024x591.jpg');
+}
+
+.carte4 {
+    background-image: url('images/Paragraph+Background.png');
+}
+
+.carte5 {
+    background-image: url('images/space-exploration-sc_fm1ysf-1024x591.jpg');
+}
+
+.carte6 {
+    background-image: url('images/Paragraph+Background (1).png');
+}
+
+.text1 h1 {
+    font-size: 19px;
+    color: rgb(161, 7, 7);
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.text1 .paragrahpe1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left:10px;
+    margin-top:10px;
+    line-height:20px;     /*qui pement de faire l'espace entre les lignes */
+}
+
+/*  Section événements */
+.contanier2 {
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.cartee1 {
+    position: relative;
+    border-radius: 16px;
+    width: 98%;
+    height: 300px;
+    background-color: #D0D0D0;
+}
+
+.text2 h1 {
+    font-size: 19px;
+    color: black;
+    text-align: center;
+}
+
+.text2 .paragrahpe2 {
+    color: black;
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+
+
+/*  PC grand écran */
+
+
+@media (min-width: 1000px) {
+
+    .bar_searchetnotification,
+    .section2_nav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .section2_nav a {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .bar_searchetnotification input {
+        padding: 15px;
+        border-radius: 10px;
+        width: 25%;
+    }
+
+
+    .contanier {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+    }
+
+    .contanier2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
