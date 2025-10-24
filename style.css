@@ -1,11 +1,4 @@
-/* for all page  */
-* {
-  margin: 0;
-  padding: 0;
-}
-.body {
-  width: 400px;
-}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -170,13 +163,7 @@ body {
 
 
 
-/* Page d'evenements et Actualite */
-* {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 /*  NAVBAR mobile */
 nav {
@@ -365,12 +352,10 @@ nav {
 
 
 
-/* page inscription */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! page inscription !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
-/* Base */
-* { box-sizing: border-box; font-family: Arial, sans-serif; }
-body { margin: 0; background: #fff; color: #222; }
+
 
 /* Section et titre */
 .signup { max-width: 520px; margin: 32px auto; padding: 0 12px;}
@@ -578,3 +563,142 @@ body {
     font-size: 2rem;
   }
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  page cataloge !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+  * { /* setings  for all page */
+      border: 0px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    main {   /* main section de cards */
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      gap: 100px;
+    }
+   
+    /*section 1*/
+
+    
+
+    /*------------cards  style---------------*/
+    .galaxie,
+    .Planètes_Lunes,
+    .Etoiles_Constellations,
+    .Nebuleusess,
+    .Trous_noirs {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      width: 300px;
+      align-items: center;
+      justify-content: space-between;
+
+      transition: all 1s;
+    }
+
+    /*  */
+    .catalog_card,
+    .catalog_card2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      background-color: #b3b3b3;
+      padding: 10px;
+      border-radius: 20px;
+      gap: 20px;
+    }
+
+
+    .catalog_card div,
+    .catalog_card2 div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      justify-content: center;
+      gap: 10px;
+    }
+
+
+    .catalog_card img,
+    .catalog_card2 img {
+      width: 50%;
+
+      border-radius: 20px;
+    }
+    .label {
+      font-size: 2rem;
+      color: #525ceb;
+position: sticky;
+      border-top: 2px solid white;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    h1,
+    p {
+      color: rgb(0, 0, 0);
+      width: fit-content;
+    }
+    @media (min-width: 600px) {
+      main {     /* full screeen */
+        max-width: 100%;
+      }
+      .catalog_card,
+      .catalog_card2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        background-color: #b3b3b3;
+        padding: 20px;
+        border-radius: 20px;
+        width: fit-content;
+        height:fit-content;
+      }
+         /* pour revers  cards right image et textes left*/
+      .catalog_card2 {
+        flex-direction: row-reverse;
+      }
+
+      .galaxie,
+      .Planètes_Lunes,
+      .Etoiles_Constellations,
+      .Nebuleusess,
+      .Trous_noirs {
+        width: 90%;
+      }
+      .label {
+        font-size: 4rem;
+        color: rgb(0, 102, 255);
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        max-width: 60%;
+      }
+      .catalog_card img,
+      .catalog_card2 img {
+        width: 30%;
+        border-radius: 20px;
+      }
+      .label_hero {
+        font-size: 4rem;
+      }
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
