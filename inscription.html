@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+<section class="signup">
+  <h2>Inscription</h2>
+
+  <form action="#" method="post" class="form">
+    <!-- Nom et prénom -->
+    <label  for="Nom" class="field">
+      <div class="ed">
+           <span>Nom et Prenom</span>
+           <input type="text" name="full_name" placeholder="Votre nom complet" required />
+      </div>
+    </label>
+
+    <!-- Email -->
+    <label class="field">
+        <div class="ed">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="exemple@mail.com" required />
+        </div>
+
+    </label>
+
+    <!-- Date de naissance -->
+    <label class="field">
+        <div class="ed">
+            <span>Date de naissence</span>
+            <input type="date" name="birthdate" required />
+        </div>
+
+    </label>
+
+    <!-- Localisation -->
+    <label class="field">
+        <div class="ed">
+            <span>Localisation</span>
+            <input type="text" name="location" placeholder="Ville, pays" />
+        </div>
+
+    </label>
+
+    <!-- Niveau d’expérience -->
+    <fieldset class="group">
+      <legend>Niveau d’expérience</legend>
+      <label class="choice"><input type="radio" name="level" value="debutant" /> Débutant</label>
+      <label class="choice"><input type="radio" name="level" value="intermediaire" /> Intermédiaire</label>
+      <label class="choice"><input type="radio" name="level" value="expert" /> Expert</label>
+    </fieldset>
+
+    <!-- Centres d’intérêt -->
+    <fieldset class="group">
+      <legend>Centres d’intérêt</legend>
+      <label class="choice"><input type="checkbox" name="interests" value="heliophysics" /> Heliophysics</label>
+      <label class="choice"><input type="checkbox" name="interests" value="cosmology" /> Cosmology</label>
+      <label class="choice"><input type="checkbox" name="interests" value="astronomy" /> Astronomy</label>
+    </fieldset>
+
+    <!-- Options d’abonnement -->
+    <fieldset class="group">
+      <legend>Options d’abonnement</legend>
+      <label class="choice"><input type="radio" name="plan" value="free"/> Gratuit</label>
+      <label class="choice"><input type="radio" name="plan" value="premium" /> Premium (5 $/mois)</label>
+      <label class="choice"><input type="radio" name="plan" value="pro" /> Pro (15 $/mois)</label>
+    </fieldset>
+
+    <!-- CGU -->
+    <label class="cgu">
+      <input type="checkbox" name="terms" required />
+      Acceptation des conditions générales
+    </label>
+
+    <!-- Bouton -->
+    <button type="submit" class="btn-primary">S’inscrire</button>
+  </form>
+
+</body>
+</html>
