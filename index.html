@@ -38,47 +38,204 @@
             <h1>Explorez les merveilles de l’univers</h1>
             <p>Votre voyage à travers l’espace et le temps commence ici. Découvrez les astres fascinants, les découvertes récentes et les événements cosmiques à ne pas manquer.</p>
 
-            <a href="#discover" class="btn">En savoir plus</a>
+            <a href="#celestial-section" class="btn">En savoir plus</a>
         </div>
     </section>
 
     <!-- Main Content -->
     <main>
-        <section class="discover" id="discover">
-            <h2>Découverte du jour</h2>
-            
-            <div class="discover-cards">
-                <!-- Featured Object -->
-                <div class="discover-card featured">
-                    <h3>Objet céleste de la semaine : La Terre</h3>
-                    <p>
-                        🌍 Distance moyenne du Soleil : 149,6 millions de km<br>
-                        🌡️ Température moyenne : 15°C<br>
-                        🌫️ Visibilité : Toujours visible (puisque nous y vivons !)<br>
-                        🌌 Fait intéressant : La Terre est la seule planète connue à abriter la vie et à posséder de l'eau liquide à sa surface.
-                    </p>
-                </div>
+        <section class="celestial-section" id="celestial-section">
+      <!-- Card 1 -->
+      <div class="card card-earth">
+        <img
+          src="images/earth-home.jpg"
+          alt="La Terre"
+        />
+        <div class="content">
+          <h2>Objet céleste de la semaine : La Terre</h2>
+          <p>🌍 Distance moyenne du Soleil : 149,6 millions de km</p>
+          <p>🌡️ Température moyenne : 15°C</p>
+          <p>👀 Visibilité : Toujours visible (puisque nous y vivons !)</p>
+          <p>
+            ✨ Fait intéressant : La Terre est la seule planète connue à abriter
+            la vie et à posséder de l’eau liquide à sa surface.
+          </p>
+        </div>
+      </div>
 
-                <!-- Eclipse Info -->
-                <div class="discover-card eclipse">
-                    <h3>Éclipse solaire totale</h3>
-                    <p>
-                        🗓️ Date : 12 août 2026<br>
-                        🌎 Visible depuis : le nord de l'Afrique et l'Europe<br>
-                        ⚠️ Attention : ne regardez jamais directement le Soleil sans lunettes de protection adaptées
-                    </p>
-                </div>
+      <!-- Card 2 -->
+      <div class="card card-eclipse">
+        <div class="content">
+          <h2>Éclipse solaire totale</h2>
+          <p>📅 Date : 12 août 2026</p>
+          <p>🌍 Visible depuis : le nord de l’Afrique et l’Europe</p>
+          <p>
+            ⚠️ Attention : ne regardez jamais directement le Soleil sans
+            lunettes de protection adaptées
+          </p>
+        </div>
+      </div>
 
-                <!-- Latest Discoveries -->
-                <div class="discover-card discoveries">
-                    <h3>Dernières découvertes astronomiques</h3>
-                    <p>
-                        📅 Date de la découverte : récemment confirmée par la NASA<br>
-                        🌍 Description : une planète située à 1 400 années-lumière de la Terre, dans la constellation du Cygne.
-                    </p>
-                </div>
+      <!-- Card 3 -->
+      <div class="card card-discovery">
+        <div class="content">
+          <h2>Dernières découvertes astronomiques</h2>
+          <p>📅 Date de la découverte : récemment confirmée par la NASA</p>
+          <p>
+            🪐 Description : une planète située à 1400 années-lumière de la
+            Terre, dans la constellation du Cygne.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="community-section">
+      <div class="container">
+        <h2 class="section-title">Our Community</h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="member-image">
+              <img src="images/sophie.png" alt="Sophie Bennett" />
             </div>
-        </section>
+            <h3 class="member-name">Sophie Bennett</h3>
+            <h3 class="member-local"><i class="fa-solid fa-location-dot"></i> Miami(USA)</h3>
+            <h3 class="member-level"> <i class="fa-brands fa-pagelines"></i> Enthusiastic</h3>
+            <p class="member-comment"><i class="fa-solid fa-comment"></i>
+              I’ve been watching the night sky from my backyard for five years,
+              and every new discovery still amazes me!
+            </p>
+          </div>
+          <div class="team-card">
+            <div class="member-image">
+              <img src="images/lira.png" alt="Léa Martin" />
+            </div>
+            <h3 class="member-name">Léa Martin</h3>
+            <h3 class="member-local"><i class="fa-solid fa-location-dot"></i> Lyon (France)</h3>
+            <h3 class="member-level"><i class="fa-brands fa-pagelines"></i> Advanced</h3>
+            <p class="member-comment"><i class="fa-solid fa-comment"></i>
+              As an astrophysics student, I really appreciate the quality of the
+              articles and how clearly everything is explained
+            </p>
+          </div>
+          <div class="team-card">
+            <div class="member-image">
+              <img src="images/karim.png" alt="karim Benali" />
+            </div>
+            <h3 class="member-name">Karim Benali</h3>
+            
+            <h3 class="member-local">  <i class="fa-solid fa-location-dot"></i> Casablanca(Morocco)</h3>
+            <h3 class="member-level"><i class="fa-brands fa-pagelines"></i> Beginner</h3>
+            <p class="member-comment"><i class="fa-solid fa-comment"></i>
+              Thanks to this site, I was able to watch my first meteor shower
+              live. The experience was absolutely magical!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+  <h1>Questions Fréquentes</h1>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Quelle est la taille de l'univers ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        L'univers observable mesure environ 93 milliards d'années-lumière de
+        diamètre, et il continue de s'étendre.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Combien de planètes compte notre système solaire ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        Notre système solaire compte huit planètes : Mercure, Vénus, Terre,
+        Mars, Jupiter, Saturne, Uranus et Neptune.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Qu'est-ce qu'une étoile à neutrons ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        Une étoile à neutrons est le résidu compact issu de l'effondrement
+        gravitationnel du cœur d'une étoile massive lors d'une supernova.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Quelle est la température à la surface du Soleil ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        La température à la surface du Soleil (photosphère) est d'environ 5
+        500 °C, tandis que son noyau atteint environ 15 millions de degrés
+        Celsius.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Quelle est la galaxie la plus proche de la Voie lactée ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        La galaxie d'Andromède est la plus proche de la Voie lactée, à environ
+        2,5 millions d'années-lumière. Elle se rapproche lentement de nous.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>Pourquoi le ciel est-il bleu ?</span>
+      <div class="faq-icon"></div>
+    </div>
+    <div class="faq-answer">
+      <p>
+        Le ciel apparaît bleu à cause de la diffusion de la lumière du Soleil
+        par les molécules de l'atmosphère. La lumière bleue est plus diffusée
+        que les autres couleurs.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="subscription-section">
+      <h2 class="section-title">Restez informé des actualités cosmiques</h2>
+      <form class="subscription-form">
+        <div class="input-group">
+          <input
+            type="email"
+            class="email-input"
+            placeholder="Adresse Email"
+            required
+          />
+          <button type="submit" class="subscribe-btn">S'abonner</button>
+        </div>
+        <p class="privacy-note">
+          En vous abonnant, vous acceptez de recevoir nos actualités cosmiques.
+          Vous pouvez vous désabonner à tout moment.
+        </p>
+      </form>
+    </section>
     </main>
 
     <!-- Footer -->
@@ -148,6 +305,28 @@
                 this.classList.add('active');
             });
         });
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const faqItems = document.querySelectorAll(".faq-item");
+        faqItems.forEach((item) => {
+          const question = item.querySelector(".faq-question");
+
+          question.addEventListener("click", () => {
+            // Fermer tous les autres éléments FAQ
+            faqItems.forEach((otherItem) => {
+              if (otherItem !== item) {
+                otherItem.classList.remove("active");
+              }
+            });
+
+            // Basculer l'état actif de l'élément cliqué
+            item.classList.toggle("active");
+          });
+        });
+      });
     </script>
 </body>
 </html>
