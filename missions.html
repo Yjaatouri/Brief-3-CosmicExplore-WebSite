@@ -1,113 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missions - Cosmic Explorer</title>
     <link rel="stylesheet" href="style.css">
-    <title>Cosmic Explore</title>
 </head>
 <body>
- 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Missions réussies</h1>
-      <a href="#missions" class="btn">Découvrir les missions</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="header-section">
+            <div class="logo-text">
+                <div class="name">Cosmic Explore</div>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li class="social-icons">
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                </li>
+                <li><a id="links" href="index.html">Accueil</a></li>
+                <li><a id="links" href="catalog.html">Catalogue Céleste</a></li>
+                <li><a id="links" href="events.html">Événements Timeline</a></li>
+                <li><a id="links" href="missions.html" class="active">Missions</a></li>
+                <li><a id="links" href="inscription.html">S'inscrire</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Chronologie des missions spatiales</h1>
+            <p>Revivez les grandes étapes de l’exploration spatiale, des missions historiques aux projets futuristes qui façonneront l’avenir de l’humanité dans les étoiles.</p>
+
+            <a href="#missions" class="btn">Découvrir les missions</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Historical Missions Section -->
+        <section class="missions-section" id="missions">
+            <h2 class="section-title">Missions Historiques (1950–2000)</h2>
+
+            <div class="missions-grid">
+                <article class="mission-card">
+                    <img src="images/voyager.jpg" alt="Voyager 1">
+                    <h3>Voyager 1</h3>
+                    <p><strong>Agence spatiale :</strong> NASA</p>
+                    <p><strong>Objectif :</strong> Exploration interstellaire</p>
+                    <p><strong>Date de lancement :</strong> 1977</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/apollo11.jpg" alt="Apollo 11">
+                    <h3>Apollo 11</h3>
+                    <p><strong>Agence spatiale :</strong> NASA</p>
+                    <p><strong>Objectif :</strong> Premier alunissage humain</p>
+                    <p><strong>Date de lancement :</strong> 1969</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/hubble.jpg" alt="Télescope spatial Hubble">
+                    <h3>Télescope spatial Hubble</h3>
+                    <p><strong>Agence spatiale :</strong> NASA / ESA</p>
+                    <p><strong>Objectif :</strong> Observation de l'univers</p>
+                    <p><strong>Date de lancement :</strong> 1990</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Current Missions Section -->
+        <section class="missions-section">
+            <h2 class="section-title">Missions Actuelles (2001–2025)</h2>
+
+            <div class="missions-grid">
+                <article class="mission-card">
+                    <img src="images/curiosity.jpg" alt="Curiosity Rover">
+                    <h3>Curiosity Rover</h3>
+                    <p><strong>Agence spatiale :</strong> NASA</p>
+                    <p><strong>Objectif :</strong> Exploration de Mars</p>
+                    <p><strong>Date de lancement :</strong> 2011</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/jamesweb.jpg" alt="Télescope spatial James Webb">
+                    <h3>Télescope spatial James Webb</h3>
+                    <p><strong>Agence spatiale :</strong> NASA / ESA / CSA</p>
+                    <p><strong>Objectif :</strong> Observation infrarouge de l'univers</p>
+                    <p><strong>Date de lancement :</strong> 2021</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/dragon.jpeg" alt="SpaceX Dragon">
+                    <h3>SpaceX Dragon</h3>
+                    <p><strong>Agence spatiale :</strong> SpaceX / NASA</p>
+                    <p><strong>Objectif :</strong> Transport vers la Station spatiale internationale</p>
+                    <p><strong>Date de lancement :</strong> 2010</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Future Missions Section -->
+        <section class="missions-section" id="missions-futures">
+            <h2 class="section-title">Missions Futures (2026–2040)</h2>
+
+            <div class="missions-grid">
+                <article class="mission-card">
+                    <img src="images/mars-colony.jpg" alt="Colonisation de Mars">
+                    <h3>Colonisation de Mars</h3>
+                    <p><strong>Agence spatiale :</strong> NASA / SpaceX</p>
+                    <p><strong>Objectif :</strong> Établir une colonie humaine sur Mars</p>
+                    <p><strong>Date prévue :</strong> 2028</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/lunar-base.jpg" alt="Base lunaire">
+                    <h3>Base lunaire</h3>
+                    <p><strong>Agence spatiale :</strong> ESA / NASA / CNSA</p>
+                    <p><strong>Objectif :</strong> Installation d'une base habitée sur la Lune</p>
+                    <p><strong>Date prévue :</strong> 2032</p>
+                </article>
+
+                <article class="mission-card">
+                    <img src="images/deep-space-probe.jpg" alt="Sonde spatiale lointaine">
+                    <h3>Sonde spatiale lointaine</h3>
+                    <p><strong>Agence spatiale :</strong> NASA / ESA</p>
+                    <p><strong>Objectif :</strong> Exploration des confins du système solaire</p>
+                    <p><strong>Date prévue :</strong> 2035</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>  
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>  
     </div>
-  </section>
 
- 
-  <section class="missions" id="missions">
-    <h2 class="section-title">Historiques (1950–2000)</h2>
+    <div class="footer-right mobile-socials">
+      <a href="#"><img src="images/instagram-colored.png" alt="Instagram"></a>
+      <a href="#"><img src="images/facebook-colored.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter-colored.png" alt="Twitter"></a>
+    </div>
 
-    <div class="missions-container">
-      <div class="mission-card">
-        <img src="images/voyager.jpg" alt="Voyager 1">
-        <h3>Voyager 1</h3>
-        <p>Agence spatiale : NASA</p>
-        <p>Objectif : Exploration interstellaire</p>
-        <p>Date de lancement : 1977</p>
+    <hr class="footer-line">
+
+    <div class="footer-bottom">
+      <div class="footer-left">
+        <p>Cosmic Explore</p>
       </div>
-
-      <div class="mission-card">
-        <img src="images/apollo11.jpg" alt="Apollo 11">
-        <h3>Apollo 11</h3>
-        <p>Agence spatiale : NASA</p>
-        <p>Objectif : Premier alunissage humain</p>
-        <p>Date de lancement : 1969</p>
+      <div class="footer-center">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
       </div>
-
-      <div class="mission-card">
-        <img src="images/hubble.jpg" alt="Télescope spatial Hubble">
-        <h3>Télescope spatial Hubble</h3>
-        <p>Agence spatiale : NASA / ESA</p>
-        <p>Objectif : Observation de l’univers</p>
-        <p>Date de lancement : 1990</p>
+      <div class="footer-right desktop-socials">
+        <a href="#"><img src="images/instagram-colored.png" alt="Instagram"></a>
+        <a href="#"><img src="images/facebook-colored.png" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter-colored.png" alt="Twitter"></a>
       </div>
     </div>
-  </section>
+  </div>
+</footer>
 
-
-  <section class="missions">
-    <h2 class="section-title">Actuelles (2001–2025)</h2>
-
-    <div class="missions-container">
-      <div class="mission-card">
-        <img src="images/curiosity.jpg" alt="Curiosity Rover">
-        <h3>Curiosity Rover</h3>
-        <p>Agence spatiale : NASA</p>
-        <p>Objectif : Exploration de Mars</p>
-        <p>Date de lancement : 2011</p>
-      </div>
-
-      <div class="mission-card">
-        <img src="images/jamesweb.jpg" alt="Télescope spatial James Webb">
-        <h3>Télescope spatial James Webb</h3>
-        <p>Agence spatiale : NASA / ESA / CSA</p>
-        <p>Objectif : Observation infrarouge de l’univers</p>
-        <p>Date de lancement : 2021</p>
-      </div>
-
-      <div class="mission-card">
-        <img src="images/dragon.jpeg" alt="SpaceX Dragon">
-        <h3>SpaceX Dragon</h3>
-        <p>Agence spatiale : SpaceX / NASA</p>
-        <p>Objectif : Transport vers la Station spatiale internationale</p>
-        <p>Date de lancement : 2010</p>
-      </div>
-    </div>
-</section>
-
-<section class="missions" id="missions-futures">
-    <h2 class="section-title">Futures (2026–2040)</h2>
-
-    <div class="missions-container">
-      <div class="mission-card">
-        <img src="images/mars-colony.jpg" alt="Colonisation de Mars">
-        <h3>Colonisation de Mars</h3>
-        <p>Agence spatiale : NASA / SpaceX</p>
-        <p>Objectif : Établir une colonie humaine sur Mars</p>
-        <p>Date prévue : 2028</p>
-      </div>
-
-      <div class="mission-card">
-        <img src="images/lunar-base.jpg" alt="Base lunaire">
-        <h3>Base lunaire</h3>
-        <p>Agence spatiale : ESA / NASA / CNSA</p>
-        <p>Objectif : Installation d’une base habitée sur la Lune</p>
-        <p>Date prévue : 2032</p>
-      </div>
-
-      <div class="mission-card">
-        <img src="images/deep-space-probe.jpg" alt="Sonde spatiale lointaine">
-        <h3>Sonde spatiale lointaine</h3>
-        <p>Agence spatiale : NASA / ESA</p>
-        <p>Objectif : Exploration des confins du système solaire</p>
-        <p>Date prévue : 2035</p>
-      </div>
-    </div>
-</section>
-
-
-  
+    <script>
+        // Add active class to clicked nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.nav-links a').forEach(item => {
+                    item.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+    </script>
+    
 </body>
 </html>
