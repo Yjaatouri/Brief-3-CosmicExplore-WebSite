@@ -311,7 +311,7 @@ main {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
-/* --- CARD 1 (Earth) --- */
+/* --- CARD 1  --- */
 .card-earth img {
   width: 100%;
   height: auto;
@@ -369,7 +369,7 @@ h2 {
 }
 
 /* --- DESKTOP VERSION --- */
-/* --- DESKTOP VERSION --- */
+
 @media (min-width: 900px) {
   .celestial-section {
     display: grid;
@@ -899,7 +899,7 @@ h2 {
 }
 
 .news-card.card-3 {
-  background-image: url('images/Mars-1024x576.png');
+  background-image: url('images/hubble.jpg');
 }
 
 .news-card.card-4 {
@@ -1369,7 +1369,7 @@ h2 {
   align-items: center;
 }
 
-/* Show only the first column (Legal) on mobile */
+
 .footer-col {
   display: none;
 }
